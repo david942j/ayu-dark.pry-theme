@@ -27,7 +27,7 @@ install_pry_theme()
 install_pry
 install_pry_theme
 
-wget https://github.com/david942j/ayu-dark.pry-theme/blob/master/ayu-dark.prytheme.rb -O $HOME/.pry/themes/ayu-dark.prytheme.rb
+wget https://github.com/david942j/ayu-dark.pry-theme/raw/master/ayu-dark.prytheme.rb -O $HOME/.pry/themes/ayu-dark.prytheme.rb
 
 pryrc=$HOME/.pryrc
 if ! grep -q ayu-dark "$pryrc"; then
